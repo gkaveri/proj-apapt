@@ -1,0 +1,72 @@
+.head {
+  padding: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  font-family: 'Roboto'; /* Horizontal offset, vertical offset, blur radius, color */
+}
+.head1 {
+  max-width: 1200px;
+  margin: mx-auto;
+  display: flex;
+  align-items: center;
+}
+.head2 {
+  width: 100px;
+}
+.swiggy-img {
+  width: 100px;
+}
+.font-bold {
+  font-size: bold;
+  text-decoration: underline;
+  color: orangered;
+}
+.caret-down {
+  width: 35px;
+  display: inline;
+  color: orange;
+  cursor: pointer;
+}
+.side-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 400px; /* Adjust width as needed */
+  height: 100vh; /* Full height of the viewport */
+  background-color: #a5a9ac; /* Background color of the side menu */
+  transition: all 0.3s ease; /* Smooth transition for visibility and opacity */
+  opacity: 0;
+  visibility: hidden;
+}
+
+.side-menu-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d3caca; /* Background color of the menu content */
+  transition: all 0.3s ease; /* Smooth transition for sliding animation */
+  transform: translateX(-100%); /* Start off-screen */
+}
+.list-items {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin-left: auto;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+.list-image {
+  width: 17px;
+  height: 17px;
+}
+.list-it {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+li:hover {
+  color: orange; /* Text color on hover */
+}

@@ -1,0 +1,148 @@
+.card {
+  display: flex;
+}
+.card-details h1 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+
+.place {
+  margin-top: 10px;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.place1 {
+  margin-top: -5px;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.card-details {
+  margin: 30px;
+  margin-top: 0px;
+  font-family: 'Roboto';
+}
+.rating {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-top: -10px;
+}
+.slides1 {
+  width: 30px;
+  height: 30px;
+  background-color: #e2e2e7;
+  border-radius: 50%;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.header1 {
+  max-width: 1200px;
+  margin-top: 10px;
+}
+.section1 {
+  display: flex;
+}
+.sec1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  font-family: 'Roboto';
+  margin-left: 5px;
+  color: black;
+}
+.items-slide1 {
+  width: 250px;
+  height: 180px;
+  border-radius: 10px;
+  margin: 10px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.slide-items1 {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  box-shadow: #e2e2e7;
+}
+.item-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  transform: translate(-600);
+  font-family: 'Roboto';
+  font-weight: bold;
+  width: 250px;
+  height: 180px; /* Adjust height as needed */
+  overflow: hidden;
+  margin: 10px;
+}
+.item-name1 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.image-overlay {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 0px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 60%,
+    rgba(0, 0, 0, 1)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: bold;
+}
+item-details {
+  display: flex;
+}
+.item-container1 {
+  position: relative;
+  margin-bottom: 20px;
+}
+.overlay-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 60%,
+    rgba(0, 0, 0, 1)
+  );
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.item-details {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.item-details h2 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.item-details p {
+  margin: 5px 0;
+  font-size: 16px;
+}

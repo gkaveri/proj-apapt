@@ -1,0 +1,42 @@
+.vaccination-by-age-contaier {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(247, 239, 239);
+  width: 35vw;
+  height: 60vh;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+.bottom-section2 {
+  display: inline;
+  flex-direction: row;
+
+  margin: 10px;
+  border-radius: 20px;
+  width: 45%;
+  padding: 10px;
+}
+.bottom-section1 {
+  display: inline;
+  flex-direction: row;
+  margin: 10px;
+  border-radius: 20px;
+  width: 50%;
+}
+.b-div1 {
+  border-left: 2px solid #000; /* Example: black color */
+  padding-left: 10px; /* Optional: Add padding for spacing */
+}
+.b-div2 {
+  border-left: 2px solid #000; /* Example: black color */
+  padding-left: 10px;
+}
+
+.b-header2 {
+  font-size: 20px; /* Example: Adjust font size */
+}
+
+.b-date,
+.b-address {
+  margin: 5px 0; /* Example: Add margin between paragraphs */
+}
